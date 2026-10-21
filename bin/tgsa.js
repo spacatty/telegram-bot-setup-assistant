@@ -13,7 +13,7 @@ const value = (name, fallback) => {
 if (flag('-h') || flag('--help')) {
   console.log(`tgsa - Telegram bot setup assistant
 
-Usage: npx tgsa [--port 7313] [--no-open] [--data <dir>]
+Usage: npx @spacatty/tgsa [--port 7313] [--no-open] [--data <dir>]
 
   --port     Port to listen on (next free port is used if busy)
   --no-open  Don't open the browser automatically

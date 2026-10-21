@@ -1,5 +1,5 @@
 {
-  "name": "tgsa",
+  "name": "@spacatty/tgsa",
   "version": "0.1.0",
   "description": "Find Telegram chat_id and forum topic ids in seconds: paste a bot token, add the bot to a chat, copy the ids from a local web UI.",
   "type": "module",
@@ -39,5 +39,8 @@
   "bugs": {
     "url": "https://github.com/spacatty/telegram-bot-setup-assistant/issues"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
 }

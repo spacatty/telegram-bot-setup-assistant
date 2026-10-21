@@ -3,10 +3,16 @@
 **Telegram bot setup assistant.** Paste a bot token, add the bot to your chats, and copy every `chat_id` and topic `message_thread_id` from a local web page. No need to read raw `getUpdates` JSON, forward messages to some other bot, or guess whether a number needs `-100` in front.
 
 ```bash
-npx tgsa
+npx @spacatty/tgsa
 ```
 
 No install, no config, no dependencies. Requires Node.js 18+.
+
+Using it often? Install it once and run `tgsa` from anywhere:
+
+```bash
+npm install -g @spacatty/tgsa
+```
 
 ---
 
@@ -26,7 +32,7 @@ Telegram only tells your bot a chat's id once the bot is in that chat and someth
 1. **Run it.**
 
    ```bash
-   npx tgsa
+   npx @spacatty/tgsa
    ```
 
    The page opens at `http://localhost:7313`.
@@ -85,7 +91,7 @@ Telegram only tells your bot a chat's id once the bot is in that chat and someth
 ## Options
 
 ```
-npx tgsa [--port 7313] [--no-open] [--data <dir>]
+npx @spacatty/tgsa [--port 7313] [--no-open] [--data <dir>]
 ```
 
 | Flag | Default | Description |
