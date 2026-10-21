@@ -1,0 +1,43 @@
+{
+  "name": "tgsa",
+  "version": "0.1.0",
+  "description": "Find Telegram chat_id and forum topic ids in seconds: paste a bot token, add the bot to a chat, copy the ids from a local web UI.",
+  "type": "module",
+  "bin": {
+    "tgsa": "bin/tgsa.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "public"
+  ],
+  "scripts": {
+    "start": "node bin/tgsa.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "chat-id",
+    "topics",
+    "getUpdates",
+    "setup",
+    "telegram-bot",
+    "chat_id",
+    "message_thread_id",
+    "forum",
+    "cli"
+  ],
+  "author": "A K",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spacatty/tgsa.git"
+  },
+  "homepage": "https://github.com/spacatty/tgsa#readme",
+  "bugs": {
+    "url": "https://github.com/spacatty/tgsa/issues"
+  },
+  "license": "MIT"
+}
