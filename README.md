@@ -101,8 +101,8 @@ A small Node HTTP server (`lib/`) runs one long-poll loop per enabled bot. It as
 ## Development
 
 ```bash
-git clone https://github.com/spacatty/tgsa.git
-cd tgsa
+git clone https://github.com/spacatty/telegram-bot-setup-assistant.git
+cd telegram-bot-setup-assistant
 npm link        # makes `tgsa` run from your checkout
 tgsa --port 7400 --data ./.dev-data
 ```

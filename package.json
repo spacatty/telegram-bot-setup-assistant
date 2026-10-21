@@ -33,11 +33,11 @@
   "author": "A K",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/spacatty/tgsa.git"
+    "url": "git+https://github.com/spacatty/telegram-bot-setup-assistant.git"
   },
-  "homepage": "https://github.com/spacatty/tgsa#readme",
+  "homepage": "https://github.com/spacatty/telegram-bot-setup-assistant#readme",
   "bugs": {
-    "url": "https://github.com/spacatty/tgsa/issues"
+    "url": "https://github.com/spacatty/telegram-bot-setup-assistant/issues"
   },
   "license": "MIT"
 }
